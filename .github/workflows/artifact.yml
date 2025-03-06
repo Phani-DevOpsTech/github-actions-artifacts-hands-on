@@ -30,7 +30,7 @@ jobs:
     - name: Download the artifact
       uses: actions/download-artifact@v4
       with:
-        name: hello.txt
+        name: hello-artifact
         path: ./artifacts
 
     - name: Display contents of downloaded file
